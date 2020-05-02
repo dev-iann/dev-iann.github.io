@@ -13,7 +13,7 @@ github_username: dev-iann
 
 # Build settings
 markdown: kramdown
-remote_theme: kamikat/jekyll-theme-kagami
+theme: jekyll-theme-kagami
 exclude:
   - Gemfile
   - Gemfile.locki
