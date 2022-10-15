@@ -34,19 +34,19 @@ Jekyll은 Ruby 기반이기 때문에 Ruby 환경을 구성해야 합니다. 제
 ---
 [Ruby Installer][ruby-installer]에서 Ruby+Devkit을 다운로드 받아 설치합니다.
 
-![Ruby+Devkit 설치](/assets/images/ruby_installer_1.png)
+![Ruby+Devkit 설치](/assets/images/2022/10/ruby_installer_1.png)
 
-![Ruby+Devkit 설치](/assets/images/ruby_installer_2.png)
+![Ruby+Devkit 설치](/assets/images/2022/10/ruby_installer_2.png)
 
-![Ruby+Devkit 설치](/assets/images/ruby_installer_3.png)
+![Ruby+Devkit 설치](/assets/images/2022/10/ruby_installer_3.png)
 
 `MSYS2 development toolchain` 선택!!
 
-![Ruby+Devkit 설치](/assets/images/ruby_installer_4.png)
+![Ruby+Devkit 설치](/assets/images/2022/10/ruby_installer_4.png)
 
 `ridk install` 할 수 있도록 항목 선택!
 
-![Ruby+Devkit 설치](/assets/images/ruby_installer_5.png)
+![Ruby+Devkit 설치](/assets/images/2022/10/ruby_installer_5.png)
 
 1, 2, 3번 모두 실행해줍니다.
 
