@@ -95,6 +95,27 @@ bundle exec jekyll serve
 
 설정을 만져서 블로그 포스트만 나오도록 했습니다. 테마에서 추가로 지원하는 기능들이 꽤나 많습니다. 이 부분은 시간을 두고 적용해보는걸로..! 여기까지, jekyll의 테마 적용하기입니다!
 
+<br>
+
+---
+### TroubleShooting
+---
+글 작성을 완료하고 github에 올리니
+```
+/usr/local/bundle/gems/jekyll-3.9.2/lib/jekyll/theme.rb:84:in `rescue in gemspec': The type-on-strap theme could not be found. (Jekyll::Errors::MissingDependencyException)
+```
+한참을 찾아보다가.. `_config.yml`의 테마 설정이 잘못되었다는 것을 알았습니다.
+
+```
+theme: type-on-strap
+```
+이렇게 설정했었는데요, 이런 형태의 설정은 [Supported themes][supported-themes]만 가능하다고 합니다. 그 외의 테마는
+
+```
+remote_theme: sylhare/Type-on-Strap
+```
+이렇게 설정해야 됩니다. 그럼...... 진짜 끝!
+
 
 
 [github-jekyll-blog-1]: https://dev-iann.github.io/github/blog/2022/10/10/start-blog-with-github-and-jekyll-1.html{:target="_blank"}
@@ -104,3 +125,4 @@ bundle exec jekyll serve
 [jekyllthemes.org]: http://jekyllthemes.org/{:target="_blank"}
 [jekyllthemes.io]: https://jekyllthemes.io/{:target="_blank"}
 [type-on-strap]: https://github.com/sylhare/Type-on-Strap{:target="_blank"}
+[supported-themes]: https://pages.github.com/themes/{:target="_blank"}
