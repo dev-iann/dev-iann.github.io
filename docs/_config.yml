@@ -47,7 +47,8 @@ fotter_text: " "
 sass:
   style: compressed
 plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed]
-theme: type-on-strap
+
+remote_theme: sylhare/Type-on-Strap
 
 # google_analytics: 
 
