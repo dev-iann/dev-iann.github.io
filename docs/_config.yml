@@ -28,8 +28,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 # favicon: assets/favicon/ico
 color_theme: dark
 
-baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "https://dev-iann.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  dev-iann
 
 # BLOG CONFIGURATION
