@@ -32,11 +32,6 @@ baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://dev-iann.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  dev-iann
 
-# Build settings
-theme: type-on-strap
-plugins:
-  - jekyll-feed
-
 # BLOG CONFIGURATION
 post_navigation: true
 paginate: 10
@@ -52,6 +47,7 @@ fotter_text: " "
 sass:
   style: compressed
 plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed]
+theme: type-on-strap
 
 # google_analytics: 
 
