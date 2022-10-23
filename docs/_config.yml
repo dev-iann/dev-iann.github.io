@@ -41,13 +41,17 @@ plugins:
 post_navigation: true
 paginate: 10
 paginate_path: "blog/page:num"
-plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed]
 
 # Theme customization
 header_text: Tech Blog
 fotter_text: " "
 # header_feature_image:
 # header_feature_image_responsive:
+
+# BUILD SETTINGS
+sass:
+  style: compressed
+plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed]
 
 # google_analytics: 
 
