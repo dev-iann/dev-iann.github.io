@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Github에서 Jekyll로 Blog 하기 - 2"
-date:   2022-10-10 13:45:03 +0900
+date:   2022-10-15 22:00:00 +0900
 categories: github blog
 ---
 

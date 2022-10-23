@@ -21,18 +21,35 @@
 title: Developer Iann
 email: dev.iaannnn@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: jekyllrb
+  Senior Software Engineer.
+  A blog to share development knowlegde and experince.
+
+# avatar: assets/img/avatar.png
+# favicon: assets/favicon/ico
+color_theme: dark
+
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "https://dev-iann.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  dev-iann
 
 # Build settings
-theme: minima
+theme: type-on-strap
 plugins:
   - jekyll-feed
+
+# BLOG CONFIGURATION
+post_navigation: true
+paginate: 10
+paginate_path: "blog/page:num"
+plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed]
+
+# Theme customization
+header_text: Tech Blog
+fotter_text: " "
+# header_feature_image:
+# header_feature_image_responsive:
+
+# google_analytics: 
 
 # Exclude from processing.
 # The following items will not be processed, by default.
