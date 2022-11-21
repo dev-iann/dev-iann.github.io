@@ -48,12 +48,10 @@ function googleAnalytics() {
 if (isCookieConsent.toLowerCase() === 'true') {
   addCookieConsentListener();
   if (readCookie(cookieName) === 'true') {
-      googleAnalytics();
+      // googleAnalytics();
   } else {
   document.getElementById('cookie-notice').style.display = 'block';
   }
 } else {
   // googleAnalytics();
 }
-
-
