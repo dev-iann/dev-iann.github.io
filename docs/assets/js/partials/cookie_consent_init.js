@@ -53,7 +53,7 @@ if (isCookieConsent.toLowerCase() === 'true') {
   document.getElementById('cookie-notice').style.display = 'block';
   }
 } else {
-  googleAnalytics();
+  // googleAnalytics();
 }
 
 
