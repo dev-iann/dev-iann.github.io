@@ -1,8 +1,13 @@
 ---
 layout: post
 title:  "Github에서 Jekyll로 Blog 하기 - 1"
+hide_title: false
 date:   2022-10-10 13:45:03 +0900
-categories: github blog
+# feature-img: "assets/img/sample.png"              # Add a feature-image to the post
+# thumbnail: "assets/img/thumbnails/sample-th.png"  # Add a thumbnail image on blog view
+# color: rgb(80,140,22)                             # Add the specified color as feature image, and change link colors in post
+# bootstrap: true                                   # Add bootstrap to the page
+tags: [github, jekyll, blog]
 ---
 
 Github에서 Jekyll로 Blog 하기 1편

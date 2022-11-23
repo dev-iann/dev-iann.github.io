@@ -118,8 +118,8 @@ remote_theme: sylhare/Type-on-Strap
 
 
 
-[github-jekyll-blog-1]: https://dev-iann.github.io/github/blog/2022/10/10/start-blog-with-github-and-jekyll-1.html{:target="_blank"}
-[github-jekyll-blog-2]: https://dev-iann.github.io/github/blog/2022/10/15/start-blog-with-github-and-jekyll-2.html{:target="_blank"}
+[github-jekyll-blog-1]: https://dev-iann.github.io/2022/10/10/start-blog-with-github-and-jekyll-1.html{:target="_blank"}
+[github-jekyll-blog-2]: https://dev-iann.github.io/2022/10/15/start-blog-with-github-and-jekyll-2.html{:target="_blank"}
 [github-jekyll-theme]: https://github.com/topics/jekyll-theme{:target="_blank"}
 [jamstackthemes.dev]: https://jamstackthemes.dev/ssg/jekyll/{:target="_blank"}
 [jekyllthemes.org]: http://jekyllthemes.org/{:target="_blank"}

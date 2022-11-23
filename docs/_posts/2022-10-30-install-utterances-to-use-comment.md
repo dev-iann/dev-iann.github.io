@@ -139,7 +139,7 @@ comments:
 
 
 
-[github-jekyll-blog-1]: https://dev-iann.github.io/github/blog/2022/10/10/start-blog-with-github-and-jekyll-1.html{:target="_blank"}
-[github-jekyll-blog-2]: https://dev-iann.github.io/github/blog/2022/10/15/start-blog-with-github-and-jekyll-2.html{:target="_blank"}
-[github-jekyll-blog-3]: https://dev-iann.github.io/github/blog/2022/10/15/start-blog-with-github-and-jekyll-3.html{:target="_blank"}
+[github-jekyll-blog-1]: https://dev-iann.github.io/2022/10/10/start-blog-with-github-and-jekyll-1.html{:target="_blank"}
+[github-jekyll-blog-2]: https://dev-iann.github.io/2022/10/15/start-blog-with-github-and-jekyll-2.html{:target="_blank"}
+[github-jekyll-blog-3]: https://dev-iann.github.io/2022/10/15/start-blog-with-github-and-jekyll-3.html{:target="_blank"}
 [install-utterances]: https://github.com/apps/utterances{:target="_blank"}

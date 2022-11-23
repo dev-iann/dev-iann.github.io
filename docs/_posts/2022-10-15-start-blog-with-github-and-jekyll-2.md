@@ -1,9 +1,15 @@
 ---
 layout: post
 title:  "Github에서 Jekyll로 Blog 하기 - 2"
+hide_title: false
 date:   2022-10-15 22:00:00 +0900
-categories: github blog
+# feature-img: "assets/img/sample.png"              # Add a feature-image to the post
+# thumbnail: "assets/img/thumbnails/sample-th.png"  # Add a thumbnail image on blog view
+# color: rgb(80,140,22)                             # Add the specified color as feature image, and change link colors in post
+# bootstrap: true                                   # Add bootstrap to the page
+tags: [github, jekyll, blog]
 ---
+
 
 Github에서 Jekyll로 Blog 하기 2편
 =
@@ -56,4 +62,4 @@ git push -u origin <BRANCH>
 
 
 
-[github-jekyll-blog-1]: https://dev-iann.github.io/github/blog/2022/10/10/start-blog-with-github-and-jekyll-1.html{:target="_blank"}
+[github-jekyll-blog-1]: https://dev-iann.github.io/2022/10/10/start-blog-with-github-and-jekyll-1.html{:target="_blank"}

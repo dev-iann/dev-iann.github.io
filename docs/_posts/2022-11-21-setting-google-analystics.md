@@ -2,7 +2,7 @@
 layout: post
 title:  "jekyll에 Google Analytics 연동하기"
 hide_title: false
-date:   2022-11-13 23:00:00 +0900
+date:   2022-11-21 23:00:00 +0900
 # feature-img: "assets/img/sample.png"              # Add a feature-image to the post
 # thumbnail: "assets/img/thumbnails/sample-th.png"  # Add a thumbnail image on blog view
 # color: rgb(80,140,22)                             # Add the specified color as feature image, and change link colors in post
