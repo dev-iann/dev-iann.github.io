@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "jekyll에 Google Analytics 연동하기"
+title:  "블로그를 google에서 검색되도록 설정하기"
 hide_title: false
-date:   2022-11-13 23:00:00 +0900
+date:   2023-05-28 18:00:00 +0900
 # feature-img: "assets/img/sample.png"              # Add a feature-image to the post
 # thumbnail: "assets/img/thumbnails/sample-th.png"  # Add a thumbnail image on blog view
 # color: rgb(80,140,22)                             # Add the specified color as feature image, and change link colors in post
 # bootstrap: true                                   # Add bootstrap to the page
-tags: [github, jekyll, blog, googleanalytics, ga]
+tags: [github, jekyll, blog, googlesearchconsole]
 ---
 
 
@@ -108,10 +108,13 @@ if (isCookieConsent.toLowerCase() === 'true') {
 <br>
 
 네, 소유권이 확인되었습니다. 그.러.나 등록된 포스트 제목으로 검색해도 검색되지 않습니다. 검색 노출에 용이하게 하기 위해 `Sitemap`을 등록해봅니다.
-<br>
+
 Jekyll 프로젝트의 루트에 sitemap.xml을 추가하고 다음의 내용을 저장합니다.
 
-```xml
+<br>
+
+{% raw %}
+```liquid
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {% for post in site.posts %}
@@ -139,3 +142,16 @@ Jekyll 프로젝트의 루트에 sitemap.xml을 추가하고 다음의 내용을
   {% endfor %}
 </urlset>
 ```
+{% endraw %}
+
+![Google Search Console](/assets/images/2022/11/google_search_console_6.png)
+
+Jekyll 프로젝트를 git에 push하고 나서 `Google Search Console`에 사이트맵을 추가하고 제출해줍니다.
+
+<br>
+
+여기까지 했음에도 구글 검색 노출이 되지않아 여러가지 방법을 써봤습니다.
+
+구글검색 엔진이 알 수 있도록 robots.txt를 추가한다거나 sitemap을 여러 포맷으로 수정해보거나.. 등등으로요.
+
+개인적으로 내린 결론은 "sitemap을 제출하고나서 느긋하게 기다리면 된다" 입니다. 어떤이는 반영되기까지 적어도 2주, 어떤이는 한달.. 사람마다 각기 다르더라구요. 저의 경우에도 2주까지는 날마다 확인해보다가, 언젠간 되겠지 생각하며 내버려두었습니다. 작년 11월 작성을 시작한 이 글이 한해가 지난 5월에 완료되는 이유기도 합니다.
